@@ -1,0 +1,138 @@
+@media (max-width: 1200px){
+    .header_collapse{
+        display: none;
+    }
+}
+@media (max-width: 1050px){
+    
+   
+}
+@media (max-width: 992px){
+    .header_navbar-icon{
+        display: block;
+        display: flex;
+        margin: unset;
+        margin-right: auto;
+    }
+   .navbar-collapse.collapse{
+    display: none !important;
+   }
+   .menu-item-has-children::before{
+       
+        left: 100px;
+   }
+   #slider{
+    padding-top: 88px;
+   }
+   .slider_inner,.slider_innerr{
+    top: 20px;
+
+   }
+   .dedicated{
+    padding: unset;
+   }
+   
+}
+@media (max-width: 770px){
+    .column{
+        flex-direction: column;
+    }
+    .page_register{
+        margin: unset;
+    }
+    .page-mission{
+        flex-direction: column;
+    }
+    .page-mission-right{
+        margin-top: 40px;
+    }
+    .page-video iframe{
+        height: 300px;
+    }
+    .pages_item,.fooeter_top,.founding,
+    .quality,.reasons-list,.products,.faq,.contact-bot,.contact-top {
+        flex-direction: column;
+    }
+    .page_item-right{
+        margin-top: 40px;
+        padding: unset;
+    }
+    .page_item-left{
+        padding: unset;
+    }
+    .fooeter_top-logo{
+        margin: 20px 0;
+        width: 50%;
+    }
+    .fooeter_top-info{
+        margin: 20px 0;
+    }
+    .founding-left,.quality-left,.products-right{
+        margin: 0 0 40px;
+    }
+    .values-right,.quality-right{
+        margin: unset;
+    }
+    .post{
+        padding: unset;
+        margin-bottom: 40px;
+    }
+    .contact-right label span input, .contact-right label span select{
+        width: 100%;
+    }
+
+}
+@media (max-width: 630px){
+    .slider-row{
+        flex-direction: column;
+    }
+    .slider_col-md-6:first-child{
+        align-items: center;
+    }
+    .slider_inner,.slider_innerr{
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-size: 32px;
+    }
+    .slider_inner-header,
+    .slider_description{
+        margin-bottom: 10px;
+    }
+    .slider_inner .slider_button{
+        font-size: 16px;
+    }
+    .page_text{
+        margin: unset;
+        margin-bottom: 30px;
+    }
+    .page_icon{
+        flex-direction: column;
+    }
+    .page_slider-content{
+        flex-direction: column;
+    }
+   
+    .page_text span{
+        padding: 15px;
+    }
+    .page_info-content-list{
+        width: 100%;
+        padding: 0 15px;
+    } 
+    .page_info-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .page_info-content-item{
+        border-bottom: 1px dotted #e7e7e7;
+    }
+    .page_sliders-carousel,.page_sliders-inner{
+        padding: 20px;
+    }
+    .slider-text h1{
+        font-size: 28px;
+    }
+   
+  
+}
